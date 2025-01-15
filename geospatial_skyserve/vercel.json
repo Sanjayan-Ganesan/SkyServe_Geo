@@ -1,8 +1,5 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ],
-    "builds": [
-        { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "build" } }
+      { "source": "/(.*)", "destination": "/page.js" }
     ]
 }
